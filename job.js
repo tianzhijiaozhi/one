@@ -77,7 +77,7 @@ function addCloudLayer() {
             },
             clickable: true
         };
-        cloudDataLayer = new AMap.CloudDataLayer('5718501e7bbf197be3251d2e', layerOptions); //实例化云图层类
+        cloudDataLayer = new AMap.CloudDataLayer('532b9b3ee4b08ebff7d535b4', layerOptions); //实例化云图层类
         cloudDataLayer.setMap(map); //叠加云图层到地图
         
         AMap.event.addListener(cloudDataLayer, 'click', function(result) {
